@@ -1,0 +1,74 @@
+.mybody {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    --Back_Color_1 : rgb(61, 169, 124);
+    --Back_Color_2 : rgba(25,22,84,1);
+    --Font_Color_1 : rgb(237, 237, 233);
+    --Font_Color_2 : rgb(58, 58, 55);
+    --Button_1_V:10px;
+    --Button_1_W:30vw;
+    background: linear-gradient(180deg, var(--Back_Color_1) 0%, var(--Back_Color_2) 100%);
+    display: flex;
+    align-items:center;
+    align-content:center;
+    flex-direction: column;
+   
+    
+    
+}
+
+.falseback{
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgba(0,0,0,0) 39%, rgba(0,0,0,0.724537037037037) 100%);
+}
+
+
+div.Form_Init {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    align-items:center;
+    align-content:center;
+}
+
+.Form_Init > h2{
+    text-align: center;
+    color: var(--Font_Color_1); 
+    margin-bottom: 50px;
+}
+.Form_Init > label{
+    font-size: large;
+    color: var(--Font_Color_1);
+    font-weight: bolder;
+    
+}
+
+   
+.Form_Init > input{
+    display: flex;
+    flex-direction: column;
+    width: var(--Button_1_W);
+    height: var(--Button_1_V);
+    border-radius: 25px;
+    padding: 1%;
+    margin: 25px 0;
+ 
+}
+
+.Form_Init > .thebutton{
+    display: flex;
+    align-items:left;
+    align-content:left;
+    padding-right: 27%;
+}
+.thebutton > button{
+
+    background-color: var(--Back_Color_1);
+    color: var(--Font_Color_1);
+    border-radius: 25px;
+    font-size: large;
+    border: 2px solid var(--Font_Color_1);
+
+}

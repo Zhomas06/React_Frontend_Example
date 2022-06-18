@@ -1,0 +1,9 @@
+Dentro de la estructura del proyecto encontramos:
+
+main.jsx que apunta a app.jsx. Main solo sirve para renderizar la app.
+
+Dentro de app.jsx se encuentra el router que proporcionará según el path una pagina u otra.
+
+Se crean diversos componentes en la carpeta componentes. 
+
+Crear una carpeta con la lógica de las apis. Las apis no dejan de ser un .js.

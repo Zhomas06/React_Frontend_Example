@@ -1,0 +1,86 @@
+.mybody_config {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    --Back_Color_1 : rgb(169, 61, 61);
+    --Back_Color_2 : rgba(25,22,84,1);
+    --Back_Color_3 : rgb(209, 160, 81);
+    --Font_Color_1 : rgba(250,250,200,1);
+    --Font_Color_2 : rgb(58, 58, 55);
+    --Button_1_V:30px;
+    --Button_1_W:30vw;
+    background: linear-gradient(180deg, var(--Back_Color_1) 0%, var(--Back_Color_2) 100%);
+    display: flex;
+    align-items:center;
+    align-content:center;
+    flex-direction: column;
+}
+.false_config{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+    background: radial-gradient(circle, rgba(0,0,0,0) 39%, rgba(0,0,0,0.724537037037037) 100%);
+}
+div.Form_config {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 3%;
+    align-content:center;
+}
+.false_config > h2{
+    margin-top: 5%;
+    text-align: center;
+    color: var(--Font_Color_1); 
+    margin-bottom: 50px;
+}
+
+.left_items > label{
+    font-size: large;
+    margin: 3% 0;
+    color: var(--Font_Color_1);
+    font-weight: bolder;
+    
+}
+
+
+.left_items{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+}
+.center_items{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: var(--Back_Color_3);
+    border-radius: 20px;
+    margin: 0% 5%;
+}
+.rigth_items{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+}
+.range-slider {
+
+    width: 25vw;
+
+}
+
+.range-slider__tooltip.range-slider__tooltip--auto.range-slider__tooltip--bottom{
+    color: var(--Font_Color_1);
+}
+
+.left_items > input {
+    width: 25vw;
+    border-radius: 25px;
+}
